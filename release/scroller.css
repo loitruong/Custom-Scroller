@@ -1,0 +1,3 @@
+.LTScroller{overflow-y:hidden;padding-right:5px;position:relative}.LTScroller__Inner{-ms-overflow-style:none;overflow-y:scroll}.LTScroller__Inner::-webkit-scrollbar{width:0px;background:transparent}.LTScroller__ScrollBar{width:5px;position:absolute;border-radius:50px;right:0;top:0;bottom:0;height:100%;background:rgba(255,76,76,0.3)}.LTScroller__ScrollBar span{background:#ff4c4c;width:100%;height:40px;position:absolute;left:0;right:0;top:0;border-radius:50px}.LTScroller.disableHorizontalScroll .LTScroller__ScrollBar{display:none}
+
+/*# sourceMappingURL=scroller.css.map */

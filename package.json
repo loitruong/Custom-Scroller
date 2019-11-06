@@ -2,20 +2,10 @@
   "name": "custom-scroller",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "srcCSSBuild": "sass ./src/scss/scroller.scss ./demo/scroller.css --style compressed",
-    "srcCSSWatch": "sass --watch ./src/scss/scroller.scss ./demo/scroller.css --style compressed",
-    "srcJSBuild": "babel ./src/js/scroller.js -o ./demo/app.js",
-    "srcJSWatch": "babel ./src/js/scroller.js --watch -o ./demo/app.js",
-    "demoCSSWatch": "sass --watch ./demo/scss/main.scss ./demo/app.css --style compressed",
-    "dev": "concurrently --kill-others \"npm run srcCSSWatch\" \"npm run srcJSWatch\""
-  },
+  "main": "",
+  "scripts": {},
   "devDependencies": {
-    "@babel/cli": "^7.6.4",
     "@babel/core": "^7.7.0",
-    "@babel/preset-env": "^7.7.1",
-    "concurrently": "^5.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-babel": "^8.0.0",
